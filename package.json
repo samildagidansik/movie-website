@@ -1,6 +1,6 @@
 {
-  "name": "movie-website",
   "homepage": "https://samildagidansik.github.io/movie-website/",
+  "name": "movie-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
