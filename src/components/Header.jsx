@@ -7,12 +7,12 @@ const Header = ({ searchTerm, setSearchTerm, error, movieList, isLoading, trendi
     return (
         <div className="container relative z-10 mx-auto flex justify-center items-center flex-col z-10">
             <div className="mt-10">
-                <img className="w-full max-w-lg h-auto mx-auto" src="../public/hero.png" alt="Hero" />
+                <img className="w-full max-w-lg h-auto mx-auto" src="./movie-website/hero.png" alt="Hero" />
                 <h1 className="text-white font-bold max-w-3xl text-6xl text-center leading-tight">Find <span className="text-gradient">Movies</span> You'll Enjoy Without the Hassle</h1>
             </div>
 
             <div className="search relative flex justify-center items-center bg-light-100/5 max-w-3xl w-full mx-auto py-3 rounded-md mt-8 mb-5">
-                <img className="absolute left-6" src='../public/search.svg' alt="Search Term" />
+                <img className="absolute left-6" src="./movie-website/search.svg" alt="Search Term" />`
 
                 <input className="w-full pl-15 outline-hidden py-2 text-gray-200 placeholder-light-200"
                     type="text"
